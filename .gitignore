@@ -1,0 +1,20 @@
+# Зависимости
+node_modules/
+__pycache__/
+
+# Логи
+*.log
+
+# Временные файлы
+*.tmp
+
+# Конфигурация IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Системные файлы
+.DS_Store
+Thumbs.db
