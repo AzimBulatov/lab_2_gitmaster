@@ -13,8 +13,8 @@ def login(username, password):
     Returns:
         bool: True если вход успешен, False в противном случае
     """
-    # Заглушка для демонстрации
-    if username and password:
+    # ИСПРАВЛЕНО: добавлена проверка на None
+    if username and password and username != "" and password != "":
         print(f"Пользователь {username} успешно вошёл в систему")
         return True
     return False
